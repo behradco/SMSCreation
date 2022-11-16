@@ -1,0 +1,128 @@
+@font-face {
+    font-family: mitra;
+    src: url(../static/font/mitra.ttf);
+}
+
+body {
+    background: #fafafa;
+    font-family: mitra, sans-serif;
+    font-size: 18px;
+    color: #000000;
+    margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+}
+
+.bg-steel {
+    background-color: #013775;
+}
+
+.site-header .navbar-nav .nav-link {
+    color: #ffffff;
+}
+
+.site-header .navbar-nav .nav-link:hover {
+    color: #dcaf35;
+}
+
+.site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+}
+
+.row {
+    text-align: center;
+}
+
+.content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+#login {
+    width: 50%;
+    text-align: right;
+    display: inline-block;
+}
+
+#account {
+    width: 50%;
+    text-align: center;
+    display: inline-block;
+}
+
+.alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    width: 50%;
+    display: inline-block;
+}
+
+.alert-info {
+    color: #0c5460;
+    background-color: #d1ecf1;
+    border-color: #bee5eb;
+    width: 50%;
+    display: inline-block;
+}
+
+#years, #month, #days {
+    border-radius: 16px;
+    text-align: center;
+    padding: 4px;
+}
+
+#today {
+    background: #dcaf35;
+    color: white;
+    border: 0;
+    padding: 4px 16px;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+#today:hover {
+    background: #013775;
+}
+
+#prepare {
+    background: #dcaf35;
+    color: white;
+    border: 0;
+    padding: 4px 16px;
+    margin-top: 16px;
+    border-radius: 16px;
+}
+
+#prepare:hover {
+    background: #013775;
+}
+
+.btn-outline-info {
+    color: #013775;
+    background-color: transparent;
+    background-image: none;
+    border-color: #013775;
+    display: inline-block;
+    width: 30%;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.btn-outline-info:hover {
+    background-color: #013775;
+    color: #ffffff;
+}
+
+#signin {
+    text-align: center;
+}
+
+#login-title {
+    text-align: center;
+}
