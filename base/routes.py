@@ -1,5 +1,5 @@
 from base import app
-from base.forms import Login
+from base.forms import Login, Account
 from base.models import User
 from base.models import validation
 from flask import render_template, url_for, redirect, flash, request
@@ -24,7 +24,7 @@ def login():
 @app.route("/account", methods=["GET", "POST"])
 @login_required
 def account():
-    return render_template("account.html", title="Account")
+    return render_template("account.html", title="Account", form=Account())
 
 @app.route("/logout")
 def logout():
